@@ -1,0 +1,10 @@
+{
+  "test_square": {
+    "name": "Calcul des carrés",
+    "points": 1
+  },
+  "test_square_root": {
+    "name": "Calcul des racines carrées",
+    "points": 1
+  }
+}
