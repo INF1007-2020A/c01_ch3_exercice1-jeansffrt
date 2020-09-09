@@ -7,7 +7,7 @@ def square_root(number: int) -> float:
     return square_rooted
 
 def square(number: int) -> int:
-    # TODO completer la fonction
+    squared = nub
     return squared
 
 
