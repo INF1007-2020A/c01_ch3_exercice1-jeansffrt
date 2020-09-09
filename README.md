@@ -1,5 +1,14 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect-0.herokuapp.com/)
 
+
+## Résultats
+Score | Critères
+--- | ---
+0/1 | Calcul des carrés
+0/1 | Calcul des racines carrées
+0/2 | **Total**
+
+[Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
 # Carré et racine carrée
 
 Avant de commencer. Consulter les instructions à suivre dans [instructions.md](instructions.md)
