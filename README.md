@@ -2,12 +2,13 @@
 
 
 
+
 ## Résultats
 Score | Critères
 --- | ---
-0/1 | Calcul des carrés
+1/1 | Calcul des carrés
 1/1 | Calcul des racines carrées
-1/2 | **Total**
+2/2 | **Total**
 
 [Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
 # Carré et racine carrée
