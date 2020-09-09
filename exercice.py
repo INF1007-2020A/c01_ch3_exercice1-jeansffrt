@@ -3,7 +3,7 @@
 import math
 
 def square_root(number: int) -> float:
-    square_rooted = math.sqrt(number) # 
+    square_rooted = math.sqrt(number) # La fonction math.sqrt() retourne la racine carrée du nombre passé en entré
     return square_rooted
 
 def square(number: int) -> int:
