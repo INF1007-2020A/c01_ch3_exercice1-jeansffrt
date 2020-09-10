@@ -1,68 +1,31 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect-0.herokuapp.com/)
 
-
-
-
-
-
-
-## Résultats
-Score | Critères
---- | ---
-1/1 | Calcul des carrés
-1/1 | Calcul des racines carrées
-2/2 | **Total**
-
-[Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
-# Carré et racine carrée
+# Transformer une lettre minuscule en majuscule
 
 Avant de commencer. Consulter les instructions à suivre dans [instructions.md](instructions.md)
 
 ## Objectif
 
-Calculer la racine carrée et le carré des nombres.
+Modifier les caractères pour que les lettres minuscules se transforment en majuscule, sans utiliser la fonction upper() de Python.
 
 ### Exemple
 ```python
-print(f"Square root: {square_root(4)}, square: {square(4)}")
+print(majuscule('bonjour'))
 ```
-Square root: 2, square: 16
+BONJOUR
 
 ### À compléter
-Vous devez compléter les fonctions suivantes du fichier [exercice.py](exercice.py).
+Vous devez compléter la fonction suivante du fichier [exercice.py](exercice.py).
 
 ```python
-def square_root(number: int) -> float:
-    # TODO completer la fonction
-    return square_rooted
-    
-def square(number: int) -> int:
-    # TODO completer la fonction
-    return squared
+def majuscule(mot):
+    #TODO completer la fonction
+    return mot
 ```
 
 ## Connaissances utiles
 
-### Exponentiation
-```python
-import math
+### Encodage
+[Tableau ASCII](http://www.asciitable.com/)
 
-math.pow(2, 3)
-2 ** 4
-
-```
-8.0<br>
-16<br>
-
-### Racine carré
-```python
-import math
-
-math.sqrt(9)
-math.pow(100, 1/2)
-4 ** (1/2)
-
-```
-3.0<br>
-10.0<br>
-2.0<br>
+Les fonctions [ord() et chr()](https://docs.python.org/3.4/library/functions.html?highlight=ord) permettent de convertir des données caractères.
