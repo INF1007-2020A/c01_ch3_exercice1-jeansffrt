@@ -1,5 +1,14 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect-0.herokuapp.com/)
 
+
+## Résultats
+Score | Critères
+--- | ---
+1/1 | Calcul des carrés
+1/1 | Calcul des racines carrées
+2/2 | **Total**
+
+[Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
 # Transformer une lettre minuscule en majuscule
 
 Avant de commencer. Consulter les instructions à suivre dans [instructions.md](instructions.md)
