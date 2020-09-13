@@ -1,6 +1,10 @@
 {
-  "test_upper_case_names": {
-    "name": "Formater des mots en majuscules",
+  "test_square": {
+    "name": "Calcul des carrés",
+    "points": 1
+  },
+  "test_square_root": {
+    "name": "Calcul des racines carrées",
     "points": 1
   }
 }
