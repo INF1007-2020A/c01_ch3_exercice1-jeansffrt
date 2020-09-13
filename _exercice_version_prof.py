@@ -1,22 +1,27 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-def majuscule(mot):
+
+def capitaliser_pays(nom):
+    # Ceci est la version pour le/la professeur(e)
     # TODO completer la fonction
-    return mot
+    return nom
 
 
 if __name__ == '__main__':
-    mots = [
-        'riz',
-        'cours',
-        'voiture',
-        'oiseau',
-        'bonjour',
-        'églantier',
-        'arbre',
-        'yolo'
+    pays = [
+        'AfghanIstan',
+        'albania',
+        'algeria',
+        'AndorRa',
+        'angolA',
+        'antigua ANd barbuda',
+        'argEntina',
+        'Armenia',
+        'austrAlia',
+        'ausTria',
+        'azerBaijaN'
     ]
-    for i in range(len(mots)):
-        mots[i] = majuscule(mots[i])
+    for i in range(len(pays)):
+        pays[i] = capitaliser_pays(pays[i])
 
-    print(mots)
+    print(pays)
