@@ -1,62 +1,25 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect-0.herokuapp.com/)
 
-
-## Résultats
-Score | Critères
---- | ---
-0/1 | Formater des mots en majuscules
-0/1 | **Total**
-
-[Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
-# Carré et racine carrée
+# Exercices du chapitre 3
 
 Avant de commencer. Consulter les instructions à suivre dans [instructions.md](instructions.md)
 
-## Objectif
+Chaque exercice est dans une fonction dans [exercice.py](exercice.py) et retourne le résultat.
 
-Calculer la racine carrée et le carré des nombres.
+## 1. Puissance
 
-### Exemple
-```python
-print(f"Square root: {square_root(4)}, square: {square(4)}")
-```
-Square root: 2, square: 16
+Écrire un algorithme qui calcule la puissance dissipée par une résistance selon la formule _P = V² / R_
 
-### À compléter
-Vous devez compléter les fonctions suivantes du fichier [exercice.py](exercice.py).
+## 2. Vecteurs orthogonaux
 
-```python
-def square_root(number: int) -> float:
-    # TODO completer la fonction
-    return square_rooted
-    
-def square(number: int) -> int:
-    # TODO completer la fonction
-    return squared
-```
+Écrire un algorithme qui détermine si deux vecteurs à deux dimensions sont orthogonaux ou non. Note : utiliser un produit scalaire, les opérations sur les vecteurs, dont le produit scalaire, ne sont pas des opérations élémentaires disponibles pour l'exercice. Acceptons l'hypothèse qu'un vecteur nul est orthogonal à n'importe quel autre vecteur.
 
-## Connaissances utiles
+## 3. Moyenne d'une liste
 
-### Exponentiation
-```python
-import math
+Écrire un algorithme qui calcule la moyenne entre des valeurs positives d'une liste. Le nombre de valeurs n’est pas connu à l’avance, et il faut ignorer les valeurs négatives.
 
-math.pow(2, 3)
-2 ** 4
+Par exemple, la liste [1, 4, -2, 10] donne une moyenne de 5.
 
-```
-8.0<br>
-16<br>
+## 4. Monnaie à rendre
 
-### Racine carré
-```python
-import math
-
-math.sqrt(9)
-math.pow(100, 1/2)
-4 ** (1/2)
-
-```
-3.0<br>
-10.0<br>
-2.0<br>
+Écrire un algorithme qui calcule, à partir d'une valeur entière, la monnaie à rendre en billets de 100$, 20$, 10$, 5$ et en pièces de 1$.
